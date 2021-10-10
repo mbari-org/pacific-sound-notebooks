@@ -1,0 +1,28 @@
+name: New Release
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
+      - name: New Release
+        uses: cycjimmy/semantic-release-action@v2
+        id: release # Need an `id` for output variables
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: 000000000000000
+          GIT_AUTHOR_NAME: danellecline
+          GIT_COMMITTER_NAME: danellecline
+        with:
+          extra_plugins: |
+            @semantic-release/exec
+            @semantic-release/git
+            @semantic-release/changelog
+            @semantic-release/commit-analyzer
+            @semantic-release/release-notes-generator
+            commitizen
