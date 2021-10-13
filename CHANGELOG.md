@@ -1,5 +1,12 @@
 # Pacific Sound Notebooks Changelog
 
+## [1.0.2](https://github.com/mbari-org/pacific-sound-notebooks/compare/v1.0.1...v1.0.2) (2021-10-13)
+
+
+### Bug Fixes
+
+* install libsndfile for Linux hosts e.g. SageMaker, added referenes and some refactoring and additional comments for clarity ([8f8f54d](https://github.com/mbari-org/pacific-sound-notebooks/commit/8f8f54dff90ace9a6a244da72ac168f47e53452f))
+
 ## [1.0.1](https://github.com/mbari-org/pacific-sound-notebooks/compare/v1.0.0...v1.0.1) (2021-10-11)
 
 
