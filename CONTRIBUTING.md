@@ -7,7 +7,7 @@ To avoid checking in notebooks with cell outputs:
 To filter output from any added notebooks, issue this command. Note that this only needed once after the repository is cloned.
 
 ```shell
-git configc.gitconfig
+git config .gitconfig
 ```
 
 ### Cleaning
