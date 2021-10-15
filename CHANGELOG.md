@@ -1,5 +1,12 @@
 # Pacific Sound Notebooks Changelog
 
+## [1.0.3](https://github.com/mbari-org/pacific-sound-notebooks/compare/v1.0.2...v1.0.3) (2021-10-15)
+
+
+### Bug Fixes
+
+* fix typo in import name ([b27d524](https://github.com/mbari-org/pacific-sound-notebooks/commit/b27d524fb410fa4dfa8eac481743af817e720e6f))
+
 ## [1.0.2](https://github.com/mbari-org/pacific-sound-notebooks/compare/v1.0.1...v1.0.2) (2021-10-13)
 
 
