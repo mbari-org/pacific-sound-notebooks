@@ -2,7 +2,7 @@
  
 ## <div align="left">About</div>
 
-Tutorials written in [Juptyer Notebooks](https://jupyter.org) to guide you through both accessing and 
+Tutorials written in [Jupyter Notebooks](https://jupyter.org) to guide you through both accessing and 
 using the data in the AWS [pacific-sound registry](https://registry.opendata.aws/pacific-sound).
  
 <details open>
