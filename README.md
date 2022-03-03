@@ -13,7 +13,7 @@ using the data in the AWS [pacific-sound registry](https://registry.opendata.aws
 * [2kHz Data](https://github.com/mbari-org/pacific-sound-notebooks/blob/master/data/PacificSound2kHz.ipynb) ✨ Recommended first step to learn more about the low-frequency data
 * [16kHz Data](https://github.com/mbari-org/pacific-sound-notebooks/blob/master/data/PacificSound16kHz.ipynb) ✨ Recommended first step to learn more about the low-mid-frequency data
 * [256kHz Data](https://github.com/mbari-org/pacific-sound-notebooks/blob/master/data/PacificSound256kHz.ipynb) ✨ Recommended first step to learn more about the raw 10-minute data
-* [256kHz to 2kHz Decimation](https://github.com/mbari-org/pacific-sound-notebooks/blob/master/data/PacificSound256kHz.ipynb) ✨ Recommended to learn about how the raw 10-minute data is decimated to a lower rate, e.g. 2kHz
+* [256kHz to 2kHz Decimation](https://github.com/mbari-org/pacific-sound-notebooks/blob/master/data/PacificSound256kHzTo2kHzDecimate.ipynb) ✨ Recommended to learn about how the raw 10-minute data is decimated from 256kHz to 2Khz
 
 ## Research and Machine Learning Notebooks
  
