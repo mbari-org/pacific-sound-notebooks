@@ -1,5 +1,12 @@
 # Pacific Sound Notebooks Changelog
 
+# [1.1.0](https://github.com/mbari-org/pacific-sound-notebooks/compare/v1.0.3...v1.1.0) (2022-03-03)
+
+
+### Features
+
+* added 256-2kHz decimation notebook ([39da26a](https://github.com/mbari-org/pacific-sound-notebooks/commit/39da26a5df1a2af66fd3e1bf2d545f47e2aa546e))
+
 ## [1.0.3](https://github.com/mbari-org/pacific-sound-notebooks/compare/v1.0.2...v1.0.3) (2021-10-15)
 
 
