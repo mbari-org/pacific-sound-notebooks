@@ -26,6 +26,8 @@ using the data in the AWS [pacific-sound registry](https://registry.opendata.aws
   * Shipping Noise
     - [Signal processing method for studying temporal variations](https://github.com/mbari-org/pacific-sound-notebooks/blob/master/shippingnoise/PacificSoundShippingNoiseAnalysis.ipynb)
  
+## Listen Up
+* [Full access to 16 kHz audio](https://github.com/mbari-org/pacific-sound-notebooks/blob/master/listen/PacificSoundListen.ipynb) 🐬  Listen to example recordings of dolphins and whales, then pick any time to listen and explore.
 
 </details>
 
@@ -45,12 +47,14 @@ documentation on how to install and use these notebooks.
 [**Python>=3.6.0**](https://www.python.org/) is required with the 
 [requirements.txt](https://github.com/mbari-org/pacific-sound-notebooks/blob/master/requirements.txt).
  
+The recommended way to run the notebooks is using the [Anaconda]() environment
+
 ```bash
 $ git clone https://github.com/mbari-org/pacific-sound-notebooks
 $ cd pacific-sound-notebooks
-$ pip install -r requirements.txt
+$ conda env create
 $ jupyter notebook
-``` 
+```
 </details>
 
 
