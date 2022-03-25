@@ -1,5 +1,12 @@
 # Pacific Sound Notebooks Changelog
 
+# [1.3.0](https://github.com/mbari-org/pacific-sound-notebooks/compare/v1.2.0...v1.3.0) (2022-03-25)
+
+
+### Features
+
+* added listen notebook ([858ca8f](https://github.com/mbari-org/pacific-sound-notebooks/commit/858ca8fa06aa81df4fb08cb469faaca3918c4450))
+
 # [1.2.0](https://github.com/mbari-org/pacific-sound-notebooks/compare/v1.1.0...v1.2.0) (2022-03-03)
 
 
