@@ -24,7 +24,7 @@ using the data in the AWS [pacific-sound registry](https://registry.opendata.aws
   * Humpback Whales
       * [Humpback whale song detection 🐳](https://github.com/mbari-org/pacific-sound-notebooks/blob/master/humpbackwhales/detect/PacificSoundDetectHumpbackSong.ipynb) Detect humpback song with a neural network model
   * Shipping Noise
-    - [Signal processing method for studying temporal variations](https://github.com/mbari-org/pacific-sound-notebooks/blob/master/shippingnoise/PacificSoundShippingNoiseAnalysis.ipynb)
+    - [Quantify shipping noise in the soundscape](https://github.com/mbari-org/pacific-sound-notebooks/blob/master/shippingnoise/PacificSoundShippingNoiseAnalysis.ipynb) 🛳️ Apply international standards to measure shipping noise and its temporal variations.
  
 ## Listen Up
 * [Full access to 16 kHz audio](https://github.com/mbari-org/pacific-sound-notebooks/blob/master/listen/PacificSoundListen.ipynb) 🐬  Listen to example recordings of dolphins and whales, then pick any time to listen and explore.
