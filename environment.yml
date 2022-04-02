@@ -2,7 +2,10 @@ name: pacific-sound-notebooks
 channels:
   - conda-forge
 dependencies:
-  - python>=3.8
-  - pip
+  - pip>=20.1.1
+  - python>=3.8, <3.10
+  - numba
+  - librosa
+  - tensorflow==2.4.1
   - pip:
     - -r requirements.txt
