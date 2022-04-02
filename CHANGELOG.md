@@ -1,5 +1,12 @@
 # Pacific Sound Notebooks Changelog
 
+## [1.3.1](https://github.com/mbari-org/pacific-sound-notebooks/compare/v1.3.0...v1.3.1) (2022-04-02)
+
+
+### Performance Improvements
+
+* changed to same model used for w.oestrichs research ([4ed2a97](https://github.com/mbari-org/pacific-sound-notebooks/commit/4ed2a9761d19e2ed56b82cf9584803787d0a858c))
+
 # [1.3.0](https://github.com/mbari-org/pacific-sound-notebooks/compare/v1.2.0...v1.3.0) (2022-03-25)
 
 
