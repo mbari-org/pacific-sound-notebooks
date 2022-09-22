@@ -1,4 +1,0 @@
-[filter "jupyter_strip_outputs"]
-    clean = jupyter nbconvert --to=notebook --ClearOutputPreprocessor.enabled=True --stdout %f
-    smudge = cat
-    required

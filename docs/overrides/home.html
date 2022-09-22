@@ -1,0 +1,42 @@
+{% extends "main.html" %}
+
+{% block tabs %}
+  {{ super() }}
+  <style type="text/css">
+    body {
+      /*background-color: #4252af;*/
+      /*background: linear-gradient(to bottom, var(--md-primary-fg-color), #02162f 100%, #fff 99%);*/
+    }
+   </style>
+  <section class="mdx-container">
+    <div class="md-grid md-typeset">
+      <div class="mdx-hero">
+        <div class="mdx-hero__content">
+          <h1>Welcome</h1>
+          <p>{{ config.site_description }}.</p>
+          <p>Data in these examples are being graciously hosted for free and open access by the Amazon
+            <a href="https://registry.opendata.aws/pacific-sound">Registry of Open Data</a> and includes raw data
+            and derived data products for use in ocean soundscape research, education, and the arts.
+            Audio recordings in this valuable archive would not be possible without the continued generous support
+            from the <a href="https://www.packard.org">David and Lucille Packard Foundation</a>.
+          </p>
+
+          <p>
+            For more information about the project that brings <b> 151 TB </b> (and growing!) acoustic data
+            to you, please see the MBARI <a href="https://www.mbari.org/mars-hydrophone/">Soundscape Project</a>.
+          </p>
+          <a href="quickstart/" title="Quick start" class="md-button md-button--primary">Quick start</a>
+          <p>
+          </p>
+          <div class="mdx-hero__image">
+              <img src="imgs/Hydrophone_deployment.jpg" alt="" width="1420" height="865" draggable="false">
+          </div>
+    </div>
+  </section>
+{% endblock %}
+
+<!-- Content -->
+{% block content %}{% endblock content %}
+
+<!-- Application footer -->
+{% block footer %}{% endblock %}

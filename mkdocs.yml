@@ -1,0 +1,72 @@
+site_name: Pacific Sound
+site_author: Danelle Cline
+site_description: >-
+  Documentation and tutorials on how to use pacific-sound data in the
+  AWS Open Data registry
+repo_name: pacific-sound-notebooks
+repo_url: https://github.com/mbari-org/pacific-sound-notebooks
+edit_uri: ""
+docs_dir: docs
+theme:
+  name: material
+  logo: https://docs.mbari.org/imgs/mbari-logo.png
+  custom_dir: docs/overrides
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.expansion
+    - navigation.sections
+    - navigation.indexes
+    - navigation.force
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    - toc.integrate
+markdown_extensions:
+  - meta
+  - admonition
+  - footnotes
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed
+  - toc:
+      permalink: True
+  - pymdownx.keys:
+      separator: "\uff0b"
+  - pymdownx.details:
+  - pymdownx.superfences:
+nav:
+  - Home: index.md
+  - Installation:
+    - installation/sagemaker.md
+    - installation/colab.md
+    - installation/local.md
+  - Models: models.md
+  - Listen Up:
+     - notebooks/listen/PacificSoundListen.ipynb
+  - Data Access and Decimation:
+    - notebooks/data/PacificSound2kHz.ipynb
+    - notebooks/data/PacificSound16kHz.ipynb
+    - notebooks/data/PacificSound256kHz.ipynb
+    - notebooks/data/PacificSound256kHzTo2kHzDecimate.ipynb
+  - Blue Whales:
+    - notebooks/bluewhales/classify/blueA/PacificSoundClassifyBlueA.ipynb
+    - notebooks/bluewhales/classify/blueB/PacificSoundBlueBCallIndex.ipynb
+  - Humpback Whales:
+    - notebooks/humpbackwhales/detect/PacificSoundDetectHumpbackSong.ipynb
+  - Shipping Noise:
+    - notebooks/shippingnoise/PacificSoundShippingNoiseAnalysis.ipynb
+
+  - Change Log: CHANGELOG.md
+  - License: LICENSE.md
+
+
+copyright: Maintained by <a href="https://www.mbari.org/cline-danelle-e/">Danelle Cline</a>.
+
+plugins:
+  - search
+  - mkdocs-jupyter:
+      include_source: True
+      ignore_h1_titles: True
+      execute: False

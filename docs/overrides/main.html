@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% if page.nb_url %}
+
+<p>Download this notebook by clicking on the download icon
+    <img src="{{ base_url }}/imgs/download_icon.png" alt="logo">
+    or find it in the <a href="http://github.com/mbari-org/pacific-sound-notebooks" title="github"> repository
+</p>
+
+<a href="{{ page.nb_url }}" title="Download Notebook" class="md-content__button md-icon">
+    {% include ".icons/material/download.svg" %}
+</a>
+{% endif %}
+
+{{ super() }}
+{% endblock content %}
+
