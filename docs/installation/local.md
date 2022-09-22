@@ -7,8 +7,8 @@ Notebooks can be run on your computer locally. [**Python>=3.6.0**](https://www.p
 The recommended way to run the notebooks is using the [Anaconda](https://www.anaconda.com/) environment
 
 ```bash
-$ git clone https://github.com/mbari-org/pacific-sound-notebooks
-$ cd pacific-sound-notebooks
+git clone https://github.com/mbari-org/pacific-sound-notebooks
+cd pacific-sound-notebooks
 ```
 
 If using a Mac 
@@ -22,9 +22,9 @@ apt-get install libsox-fmt-all libsox-dev
 ```
 
 ```
-$ conda env create 
-$ conda activate pacific-sound-notebooks
-$ pip install ipykernel
-$ python -m ipykernel install --user --name=pacific-sound-notebooks
-$ jupyter notebook
+conda env create 
+conda activate pacific-sound-notebooks
+pip install ipykernel
+python -m ipykernel install --user --name=pacific-sound-notebooks
+jupyter notebook
 ```

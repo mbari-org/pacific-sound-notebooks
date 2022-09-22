@@ -10,13 +10,13 @@ To use Colab
 
 | Notebook | Description  |
 | -----------------------------------------  | ----------------------------------------- 
-| [PacificSound2kHz.ipynb](https://colab.research.google.com/github/mbari-org/pacific-sound-notebooks/blob/master/data/PacificSound2kHz.ipynb)	| Low-frequency data access and spectrogram calibration |
-| [PacificSound16kHz.ipynb](https://colab.research.google.com/github/mbari-org/pacific-sound-notebooks/blob/master/data/PacificSound16kHz.ipynb) | Low-mid-frequency data access and spectrogram calibration |
-| [PacificSound256kHz.ipynb](https://colab.research.google.com/github/mbari-org/pacific-sound-notebooks/blob/master/data/PacificSound256kHz.ipynb)  | Raw recording data access and spectrogram calibration |
-| [PacificSoundClassifyBlueA.ipynb](https://colab.research.google.com/github/mbari-org/pacific-sound-notebooks/blob/master/bluewhales/classify/blueA/PacificSoundClassifyBlueA.ipynb)  |Blue whale A call classification using a trained neural network model |
-| [PacificSoundBlueBCallIndex.ipynb](https://colab.research.google.com/github/mbari-org/pacific-sound-notebooks/blob/master/bluewhales/classify/blueB/PacificSoundBlueBCallIndex.ipynb)  |Signal processing method for computing Blue whale B call call index |
-| [PacificSoundShippingNoiseAnalysis.ipynb](https://colab.research.google.com/github/mbari-org/pacific-sound-notebooks/blob/master/shippingnoise/PacificSoundShippingNoiseAnalysis.ipynb)  |Signal processing methods for studying temporal variations in shipping noise|
-| [PacificSoundDetectHumpbackSong.ipynb](https://colab.research.google.com/github/mbari-org/pacific-sound-notebooks/blob/master/humpbackwhales/detect/PacificSoundDetectHumpbackSong.ipynb)  |Humpback song detection using a trained neural network model||
+| [PacificSound2kHz.ipynb](https://colab.research.google.com/github/mbari-org/pacific-sound-notebooks/blob/master/docs/notebooks/data/PacificSound2kHz.ipynb)	| Low-frequency data access and spectrogram calibration |
+| [PacificSound16kHz.ipynb](https://colab.research.google.com/github/mbari-org/pacific-sound-notebooks/blob/master/docs/notebooks/data/PacificSound16kHz.ipynb) | Low-mid-frequency data access and spectrogram calibration |
+| [PacificSound256kHz.ipynb](https://colab.research.google.com/github/mbari-org/pacific-sound-notebooks/blob/master/docs/notebooks/data/PacificSound256kHz.ipynb)  | Raw recording data access and spectrogram calibration |
+| [PacificSoundClassifyBlueA.ipynb](https://colab.research.google.com/github/mbari-org/pacific-sound-notebooks/blob/master/docs/notebooks/bluewhales/classify/blueA/PacificSoundClassifyBlueA.ipynb)  |Blue whale A call classification using a trained neural network model |
+| [PacificSoundBlueBCallIndex.ipynb](https://colab.research.google.com/github/mbari-org/pacific-sound-notebooks/blob/master/docs/notebooks/bluewhales/classify/blueB/PacificSoundBlueBCallIndex.ipynb)  |Signal processing method for computing Blue whale B call call index |
+| [PacificSoundShippingNoiseAnalysis.ipynb](https://colab.research.google.com/github/mbari-org/pacific-sound-notebooks/blob/master/docs/notebooks/shippingnoise/PacificSoundShippingNoiseAnalysis.ipynb)  |Signal processing methods for studying temporal variations in shipping noise|
+| [PacificSoundDetectHumpbackSong.ipynb](https://colab.research.google.com/github/mbari-org/pacific-sound-notebooks/blob/master/docs/notebooks/humpbackwhales/detect/PacificSoundDetectHumpbackSong.ipynb)  |Humpback song detection using a trained neural network model||
 
 **Important**  - there is a 24-hour runtime limit for Colab. This can be an issue for some applications
 such as training deep-learning models for sound detection and/or classification. 
