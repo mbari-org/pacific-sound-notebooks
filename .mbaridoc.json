@@ -1,4 +1,5 @@
 {
   "destination": "pacific-sound",
-  "public": true
+  "public": true,
+  "docdir": "docs"
 }
