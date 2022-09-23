@@ -14,7 +14,6 @@ theme:
   features:
     - navigation.instant
     - navigation.tabs
-    - navigation.expansion
     - navigation.sections
     - navigation.indexes
     - navigation.force
@@ -51,8 +50,8 @@ nav:
     - notebooks/data/PacificSound256kHz.ipynb
     - notebooks/data/PacificSound256kHzTo2kHzDecimate.ipynb
   - Blue Whales:
-    - notebooks/bluewhales/classify/blueA/PacificSoundClassifyBlueA.ipynb
-    - notebooks/bluewhales/classify/blueB/PacificSoundBlueBCallIndex.ipynb
+    - Blue A Classify : notebooks/bluewhales/classify/blueA/PacificSoundClassifyBlueA.ipynb
+    - Blue B Call Index: notebooks/bluewhales/classify/blueB/PacificSoundBlueBCallIndex.ipynb
   - Humpback Whales:
     - notebooks/humpbackwhales/detect/PacificSoundDetectHumpbackSong.ipynb
   - Shipping Noise:
