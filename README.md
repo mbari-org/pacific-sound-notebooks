@@ -71,6 +71,3 @@ python -m ipykernel install --user --name=pacific-sound-notebooks
 jupyter notebook
 ```
 </details>
-
-
-
