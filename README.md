@@ -37,9 +37,9 @@ See [pacific-sound](http://docs.mbari.org/pacific-sound) for the official,docume
 
 ## <div align="left">Quick Start </div>
  
-### [Install in SageMaker](https://docs.mbari.org/pacific-sound/installation/SageMaker/)
+### [Install in SageMaker](https://docs.mbari.org/pacific-sound/installation/sagemaker/)
 
-### [Install in Colab](https://docs.mbari.org/pacific-sound/installation/SageMaker/)
+### [Install in Colab](https://docs.mbari.org/pacific-sound/installation/colab/)
  
 ### Install in your computer
 
