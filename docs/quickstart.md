@@ -2,7 +2,10 @@ Tutorials written in [Juptyer Notebooks](https://jupyter.org) are available to g
 using the data in the pacific-sound registry. A live preview of these notebooks can be found by clicking any of the links 
 below, or by navigating through the menus by topic, e.g. Data Access, Blue Whales, etc.
 
-These notebooks can be used in [SageMaker](installation/sagemaker.md), [Colab](installation/colab.md) or on your computer.   
+These notebooks can be used in [SageMaker](/docs/installation/sagemaker.md), [Colab](/docs/installation/colab.md) or [on your computer](/docs/installation/local.md).
+
+All audio files in this archive use the UTC time standard.
+Start time is encoded in the file names and included in the metadata for each daily decimated file.
 
 ## Data Access and Decimation Notebooks
 
