@@ -33,7 +33,7 @@ using the data in the AWS [pacific-sound registry](https://registry.opendata.aws
 
 ## <div align="left">Documentation</div> 
 
-See [pacific-sound](http://docs.mbari.org/pacific-sound) for the official,documentation.
+See [pacific-sound](http://docs.mbari.org/pacific-sound) for the official documentation.
 
 ## <div align="left">Quick Start </div>
  
