@@ -23,9 +23,10 @@ Start time is encoded in the file names and included in the metadata for each da
   * Blue Whales
       * [Blue B call index 🐳](notebooks/bluewhales/classify/blueB/PacificSoundBlueBCallIndex.ipynb) Study song occurrence using a signal processing method
       * [Blue A call classification 🐳](notebooks/bluewhales/classify/blueA/PacificSoundClassifyBlueA.ipynb) Classify blue whale song A calls with a neural network model
-      * Training a model in SageMaker  🚧
   * Humpback Whales
       * [Humpback whale song detection 🐳](notebooks/humpbackwhales/detect/PacificSoundDetectHumpbackSong.ipynb) Detect humpback song with a neural network model
+  * Fin Whales
+    * [Fin whale call index 🐳](notebooks/bluewhales/classify/blueB/PacificSoundBlueBCallIndex.ipynb) Fin whale song occurrence using a signal processing method
   * Shipping Noise
     - [Quantify shipping noise in the soundscape](notebooks/shippingnoise/PacificSoundShippingNoiseAnalysis.ipynb) 🛳️ Apply international standards to measure shipping noise and its temporal variations.
 
