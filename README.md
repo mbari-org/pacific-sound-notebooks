@@ -20,7 +20,8 @@ using the data in the AWS [pacific-sound registry](https://registry.opendata.aws
   * Blue Whales
       * [Blue B call index 🐳](https://github.com/mbari-org/pacific-sound-notebooks/blob/master/docs/notebooks/bluewhales/classify/blueB/PacificSoundBlueBCallIndex.ipynb) Study song occurrence using a signal processing method
       * [Blue A call classification 🐳](https://github.com/mbari-org/pacific-sound-notebooks/blob/master/docs/notebooks/bluewhales/classify/blueA/PacificSoundClassifyBlueA.ipynb) Classify blue whale song A calls with a neural network model
-      * Training a model in SageMaker  🚧
+  * Fin Whales
+    * [Fin whale call index 🐳](https://github.com/mbari-org/pacific-sound-notebooks/blob/master/docs/notebooks/finwhales/PacificSound_FinCallindex.ipynb) Fin whale song occurrence using a signal processing method
   * Humpback Whales
       * [Humpback whale song detection 🐳](https://github.com/mbari-org/pacific-sound-notebooks/blob/master/docs/notebooks/humpbackwhales/detect/PacificSoundDetectHumpbackSong.ipynb) Detect humpback song with a neural network model
   * Shipping Noise
