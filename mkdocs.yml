@@ -52,6 +52,8 @@ nav:
   - Blue Whales:
     - Blue A Classify : notebooks/bluewhales/classify/blueA/PacificSoundClassifyBlueA.ipynb
     - Blue B Call Index: notebooks/bluewhales/classify/blueB/PacificSoundBlueBCallIndex.ipynb
+  - Fin Whales:
+    - Fin Call Index: notebooks/finwhales/PacificSound_FinCallindex.ipynb
   - Humpback Whales:
     - notebooks/humpbackwhales/detect/PacificSoundDetectHumpbackSong.ipynb
   - Shipping Noise:
