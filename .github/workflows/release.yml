@@ -8,21 +8,30 @@ jobs:
   release:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@master
-      - name: New Release
-        uses: cycjimmy/semantic-release-action@v3
-        id: release # Need an `id` for output variables
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: 000000000000000
-          GIT_AUTHOR_NAME: danellecline
-          GIT_COMMITTER_NAME: danellecline
-        with:
-          extra_plugins: |
-            @semantic-release/exec
-            @semantic-release/git
-            @semantic-release/changelog
-            @semantic-release/commit-analyzer
-            @semantic-release/release-notes-generator
-            commitizen
+    - uses: actions/checkout@v2
+    - uses: actions/setup-python@v2
+      with:
+        python-version: 3.11
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install python-semantic-release
+    - name: Check release status
+      id: release-status
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        pip install python-semantic-release
+        if semantic-release --noop --strict version
+        then
+          echo "Releasing new version."
+        else
+          echo "Skipping release steps."
+        fi
+    - if: steps.release-status.outputs.released == 'true'
+      name: Release to GitHub
+      id: github-release
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        semantic-release version
