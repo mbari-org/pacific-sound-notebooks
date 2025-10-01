@@ -35,4 +35,3 @@ Start time is encoded in the file names and included in the metadata for each da
 ## Listen Up
 
 * [Full access to 16 kHz audio](notebooks/listen/PacificSoundListen.ipynb) 🐬  Listen to example recordings of dolphins and whales, then pick any time to listen and explore.
-
