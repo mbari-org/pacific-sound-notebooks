@@ -10,25 +10,25 @@ using the data in the AWS [pacific-sound registry](https://registry.opendata.aws
  
 ## Data Notebooks
  
-* [2kHz Data](https://github.com/mbari-org/pacific-sound-notebooks/blob/master/docs/notebooks/data/PacificSound2kHz.ipynb) ✨ Recommended first step to learn more about the low-frequency data
-* [16kHz Data](https://github.com/mbari-org/pacific-sound-notebooks/blob/master/docs/notebooks/data/PacificSound16kHz.ipynb) ✨ Recommended first step to learn more about the low-mid-frequency data
-* [256kHz Data](https://github.com/mbari-org/pacific-sound-notebooks/blob/master/docs/notebooks/data/PacificSound256kHz.ipynb) ✨ Recommended first step to learn more about the raw 10-minute data
-* [256kHz to 2kHz Decimation](https://github.com/mbari-org/pacific-sound-notebooks/blob/master/docs/notebooks/data/PacificSound256kHzTo2kHzDecimate.ipynb) ✨ Recommended to learn about how the raw 10-minute data is decimated from 256kHz to 2Khz
+* [2kHz Data](https://github.com/mbari-org/pacific-sound-notebooks/blob/main/docs/notebooks/data/PacificSound2kHz.ipynb) ✨ Recommended first step to learn more about the low-frequency data
+* [16kHz Data](https://github.com/mbari-org/pacific-sound-notebooks/blob/main/docs/notebooks/data/PacificSound16kHz.ipynb) ✨ Recommended first step to learn more about the low-mid-frequency data
+* [256kHz Data](https://github.com/mbari-org/pacific-sound-notebooks/blob/main/docs/notebooks/data/PacificSound256kHz.ipynb) ✨ Recommended first step to learn more about the raw 10-minute data
+* [256kHz to 2kHz Decimation](https://github.com/mbari-org/pacific-sound-notebooks/blob/main/docs/notebooks/data/PacificSound256kHzTo2kHzDecimate.ipynb) ✨ Recommended to learn about how the raw 10-minute data is decimated from 256kHz to 2Khz
 
 ## Research and Machine Learning Notebooks
  
   * Blue Whales
-      * [Blue B call index 🐳](https://github.com/mbari-org/pacific-sound-notebooks/blob/master/docs/notebooks/bluewhales/classify/blueB/PacificSoundBlueBCallIndex.ipynb) Study song occurrence using a signal processing method
-      * [Blue A call classification 🐳](https://github.com/mbari-org/pacific-sound-notebooks/blob/master/docs/notebooks/bluewhales/classify/blueA/PacificSoundClassifyBlueA.ipynb) Classify blue whale song A calls with a neural network model
+      * [Blue B call index 🐳](https://github.com/mbari-org/pacific-sound-notebooks/blob/main/docs/notebooks/bluewhales/classify/blueB/PacificSoundBlueBCallIndex.ipynb) Study song occurrence using a signal processing method
+      * [Blue A call classification 🐳](https://github.com/mbari-org/pacific-sound-notebooks/blob/main/docs/notebooks/bluewhales/classify/blueA/PacificSoundClassifyBlueA.ipynb) Classify blue whale song A calls with a neural network model
   * Fin Whales
-    * [Fin whale call index 🐳](https://github.com/mbari-org/pacific-sound-notebooks/blob/master/docs/notebooks/finwhales/PacificSound_FinCallindex.ipynb) Fin whale song occurrence using a signal processing method
+    * [Fin whale call index 🐳](https://github.com/mbari-org/pacific-sound-notebooks/blob/main/docs/notebooks/finwhales/PacificSound_FinCallindex.ipynb) Fin whale song occurrence using a signal processing method
   * Humpback Whales
-      * [Humpback whale song detection 🐳](https://github.com/mbari-org/pacific-sound-notebooks/blob/master/docs/notebooks/humpbackwhales/detect/PacificSoundDetectHumpbackSong.ipynb) Detect humpback song with a neural network model
+      * [Humpback whale song detection 🐳](https://github.com/mbari-org/pacific-sound-notebooks/blob/main/docs/notebooks/humpbackwhales/detect/PacificSoundDetectHumpbackSong.ipynb) Detect humpback song with a neural network model
   * Shipping Noise
-    - [Quantify shipping noise in the soundscape](https://github.com/mbari-org/pacific-sound-notebooks/blob/master/docs/notebooks/shippingnoise/PacificSoundShippingNoiseAnalysis.ipynb) 🛳️ Apply international standards to measure shipping noise and its temporal variations.
+    - [Quantify shipping noise in the soundscape](https://github.com/mbari-org/pacific-sound-notebooks/blob/main/docs/notebooks/shippingnoise/PacificSoundShippingNoiseAnalysis.ipynb) 🛳️ Apply international standards to measure shipping noise and its temporal variations.
  
 ## Listen Up
-* [Full access to 16 kHz audio](https://github.com/mbari-org/pacific-sound-notebooks/blob/master/docs/notebooks/listen/PacificSoundListen.ipynb) 🐬  Listen to example recordings of dolphins and whales, then pick any time to listen and explore.
+* [Full access to 16 kHz audio](https://github.com/mbari-org/pacific-sound-notebooks/blob/main/docs/notebooks/listen/PacificSoundListen.ipynb) 🐬  Listen to example recordings of dolphins and whales, then pick any time to listen and explore.
 
 </details>
 
@@ -45,7 +45,7 @@ See [pacific-sound](http://docs.mbari.org/pacific-sound) for the official docume
 ### Install in your computer
 
 [**Python>=3.6.0**](https://www.python.org/) is required with the 
-[requirements.txt](https://github.com/mbari-org/pacific-sound-notebooks/blob/master/docs/notebooks/requirements.txt).
+[requirements.txt](https://github.com/mbari-org/pacific-sound-notebooks/blob/main/docs/notebooks/requirements.txt).
  
 The recommended way to run the notebooks is using the [Anaconda](https://www.anaconda.com/) environment
 
